@@ -38,7 +38,7 @@ public class RelatorioAnalitico extends javax.swing.JFrame {
         jScrollPane1 = new javax.swing.JScrollPane();
         tblDetalhes = new javax.swing.JTable();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
 
         lblRelatorioAnalitico.setFont(new java.awt.Font("Segoe UI", 1, 24)); // NOI18N
         lblRelatorioAnalitico.setText("Relatório Analítico");

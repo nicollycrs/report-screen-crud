@@ -83,6 +83,11 @@ public class RelatorioSintetico extends javax.swing.JFrame {
 
         btnDetalhes.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
         btnDetalhes.setText("Detalhes");
+        btnDetalhes.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btnDetalhesActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -174,6 +179,11 @@ public class RelatorioSintetico extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btnDetalhesActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDetalhesActionPerformed
+        RelatorioAnalitico relatorioAnalitico = new RelatorioAnalitico();
+        relatorioAnalitico.setVisible(true);
+    }//GEN-LAST:event_btnDetalhesActionPerformed
 
     /**
      * @param args the command line arguments
